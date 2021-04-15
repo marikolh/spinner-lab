@@ -5,7 +5,7 @@ using namespace std;
 
 int main()
 {
-	SpinnerSlot* start = NULL;
+	/*SpinnerSlot* start = NULL;
 	SpinnerSlot* current = NULL;
 
 	start = AddSlot(NULL, "A");
@@ -29,5 +29,5 @@ int main()
 		current = Spin(current);
 	}
 
-	return(0);
+	return(0);*/
 }
