@@ -22,7 +22,7 @@ Slot* AddSlot(Slot* current, string name){
 		//make current next point to newSlot
 
 	}		
-	//return newSlot
+	return(newSlot);
 }
 void PrintWheel(Slot* start) {
 	cout << "running PrintWheel" << endl;
@@ -44,7 +44,7 @@ void PrintWheel(Slot* start) {
 
 	} while (current != start);
 }
-Slot* Spin(Slot* start) {
+Slot* Spin(Slot* current) {
 	cout << "running Spin" << endl;
 
 	//rest the random number generator
@@ -62,5 +62,5 @@ Slot* Spin(Slot* start) {
 
 	//print out the name of current indicating the slot landed on
 
-	//return current
+	return(current);
 }
