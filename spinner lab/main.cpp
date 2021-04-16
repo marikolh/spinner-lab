@@ -5,8 +5,8 @@ using namespace std;
 
 int main()
 {
-	/*SpinnerSlot* start = NULL;
-	SpinnerSlot* current = NULL;
+	Slot* start = NULL;
+	Slot* current = NULL;
 
 	start = AddSlot(NULL, "A");
 	current = AddSlot(start, "A-");
@@ -21,7 +21,7 @@ int main()
 	current = AddSlot(current, "D-");
 	current = AddSlot(current, "F");
 
-	PrintSpinner(start);
+	PrintWheel(start);
 
 	current = start;
 	for (int i = 1; i <= 3; i++) {
@@ -29,5 +29,5 @@ int main()
 		current = Spin(current);
 	}
 
-	return(0);*/
+	return(0);
 }
