@@ -32,6 +32,10 @@ int main()
 		cout << endl << "Spin " << i << ":" << endl;
 		current = Spin(current);
 	}
+	
+	testing testStruct;
+	testStruct.name = "john";
+	cout << testStruct.name;
 
 	return(0);
 }

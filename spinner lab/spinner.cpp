@@ -28,7 +28,6 @@ Slot* AddSlot(Slot* current, string name){
 }
 void PrintWheel(Slot* start) {
 	cout << "running PrintWheel" << endl;
-
 	//loops through all the slots, print one name per line
 
 	//make new pointer called current and set it to the parameter start
@@ -42,7 +41,7 @@ void PrintWheel(Slot* start) {
 		cout << "current slot named " << current->name << endl;
 
 		//advance current to the next slot by setting current to current next
-
+		current = current->next;
 
 	} while (current != start);
 }
