@@ -6,7 +6,7 @@
 using namespace std;
 
 Slot* AddSlot(Slot* current, string name){
-	cout << "running AddSlot" << endl;
+	//cout << "running AddSlot" << endl;
 
 	//create a new slot, get pointer to it
 	Slot* newSlot = new Slot;
