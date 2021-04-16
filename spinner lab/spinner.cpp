@@ -12,15 +12,17 @@ Slot* AddSlot(Slot* current, string name){
 	Slot* newSlot = new Slot;
 
 	//add name to newSlot: pull from function(string name)
+	newSlot->name = name;
 
 	if (current == NULL) {
 		//make newSlot next point to newSlot
-
+		newSlot->next = newSlot;
 	}
 	else {
 		//make newSlot next point to current next
+		newSlot->next = current->next;
 		//make current next point to newSlot
-
+		current->next = newSlot;
 	}		
 	return(newSlot);
 }
@@ -51,10 +53,10 @@ Slot* Spin(Slot* current) {
 	srand((unsigned)time(NULL));
 	
 	//get a random number between 1 and maxSpin
-	int spin = (rand() % maxSpin) + 1;
+	int randomSpin = (rand() % maxSpin) + 1;
 
 	//for(spin times)
-		for (int i = 0; i <= spin; i++){
+		for (int i = 0; i <= randomSpin; i++){
 
 		}
 		//advance current to the next slot by setting current to current next
