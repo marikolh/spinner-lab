@@ -3,6 +3,8 @@
 
 using namespace std;
 
+const int maxSpin = 500;
+
 struct Slot {
 	string name;
 	Slot *next;
