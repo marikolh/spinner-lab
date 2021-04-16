@@ -15,4 +15,4 @@ Slot* AddSlot(Slot* last, string name);
 void PrintWheel(Slot* current);
 
 //spins the wheel a random number of slots to get a random result
-Slot* SpinWheel(Slot* start);
+Slot* Spin(Slot* start);

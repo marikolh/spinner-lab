@@ -30,7 +30,7 @@ void PrintWheel(Slot* current) {
 	//while current does not equal start
 
 }
-Slot* SpinWheel(Slot* start) {
+Slot* Spin(Slot* start) {
 	//rest the random number generator
 		//srand((unsigned)time(NULL));
 	
