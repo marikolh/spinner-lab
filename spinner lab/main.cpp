@@ -7,7 +7,7 @@ int main()
 {
 	Slot* start = NULL;
 	Slot* current = NULL;
-	cout << "initiated slots start and current " << endl;
+	//cout << "initiated slots start and current " << endl;
 
 	start = AddSlot(NULL, "A");
 	current = AddSlot(start, "A-");
@@ -22,10 +22,10 @@ int main()
 	current = AddSlot(current, "D-");
 	current = AddSlot(current, "F");
 
-	cout << "set all the grade slots A-F" << endl;
+	//cout << "set all the grade slots A-F" << endl;
 
 	PrintWheel(start);
-	cout << "did PrintWheel(start)" << endl;
+	//cout << "did PrintWheel(start)" << endl;
 
 	current = start;
 	for (int i = 1; i <= 3; i++) {

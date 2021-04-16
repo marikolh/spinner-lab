@@ -27,12 +27,13 @@ Slot* AddSlot(Slot* current, string name){
 	return(newSlot);
 }
 void PrintWheel(Slot* start) {
-	cout << "running PrintWheel" << endl;
+	//cout << "running PrintWheel" << endl;
+	
 	//loops through all the slots, print one name per line
 
 	//make new pointer called current and set it to the parameter start
 	Slot* currentSlot = start;
-	cout << "i just made the new slot named current, and set it to the value start" << endl;
+	//cout << "i just made the new slot named current, and set it to the value start" << endl;
 
 	do {
 		//cout << "im in the do while loop" << endl;
@@ -46,7 +47,7 @@ void PrintWheel(Slot* start) {
 	} while (currentSlot != start);
 }
 Slot* Spin(Slot* current) {
-	cout << "running Spin" << endl;
+	//cout << "running Spin" << endl;
 
 	//rest the random number generator
 	srand((unsigned)time(NULL));
