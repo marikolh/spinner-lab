@@ -33,9 +33,5 @@ int main()
 		current = Spin(current);
 	}
 	
-	testing testStruct;
-	testStruct.name = "john";
-	cout << testStruct.name;
-
 	return(0);
 }

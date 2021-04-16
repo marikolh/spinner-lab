@@ -4,9 +4,6 @@
 using namespace std;
 
 const int maxSpin = 500;
-struct testing {
-	string name;
-};
 
 struct Slot {
 	string name;
