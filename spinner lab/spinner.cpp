@@ -31,19 +31,19 @@ void PrintWheel(Slot* start) {
 	//loops through all the slots, print one name per line
 
 	//make new pointer called current and set it to the parameter start
-	Slot* current = start;
+	Slot* currentSlot = start;
 	cout << "i just made the new slot named current, and set it to the value start" << endl;
 
 	do {
 		cout << "im in the do while loop" << endl;
 
 		//print out the name of current
-		cout << "current slot named " << current->name << endl;
+		cout << "current slot named " << currentSlot->name << endl;
 
 		//advance current to the next slot by setting current to current next
-		current = current->next;
+		currentSlot = currentSlot->next;
 
-	} while (current != start);
+	} while (currentSlot != start);
 }
 Slot* Spin(Slot* current) {
 	cout << "running Spin" << endl;
