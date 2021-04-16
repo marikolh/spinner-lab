@@ -56,12 +56,13 @@ Slot* Spin(Slot* current) {
 
 	//for(spin times)
 		for (int i = 0; i <= randomSpin; i++){
-
+			current = current->next;
+			cout << current->name << endl;
 		}
-		//advance current to the next slot by setting current to current next
-		//optional: print out the name of current (this probably helps with debugging)
+		
 
 	//print out the name of current indicating the slot landed on
+	cout << "the spinner landed on slot " << current->name << endl;
 
 	return(current);
 }
