@@ -35,7 +35,7 @@ void PrintWheel(Slot* start) {
 	cout << "i just made the new slot named current, and set it to the value start" << endl;
 
 	do {
-		cout << "im in the do while loop" << endl;
+		//cout << "im in the do while loop" << endl;
 
 		//print out the name of current
 		cout << "current slot named " << currentSlot->name << endl;
